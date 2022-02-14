@@ -10,7 +10,7 @@ const gameBoard = document.getElementById('game-board')
 
 function main(currentTime) {
   if (gameOver) {
-    if (confirm('EMOTIONAL DAMAGEEE')) {
+    if (confirm('You have lost the game. Click "OK" to play again.')) {
       window.location = '/'
     }
     return
